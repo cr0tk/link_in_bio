@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    text-decoration:overline;
+    text-decoration-style:wavy;
+}
+img{
+    border-radius: 50%;
+    height: 100px;
+}
+header{
+    <img src="My%20Vector.jpeg">
+}
+header h1{
+    color: white;
+    margin-top: 32px;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+header a{
+    margin-top: .4rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #4A475F;
+    transition: color .2s;
+}
+ul li a svg,
+ul li a img{
+    height: 2.4rem;
+    width: 2.4rem;
+}
+ul{
+    margin-top: 8rem;
+    display:grid;
+    justify-items: center;
+    grid-template: 100%;
+    gap : 4rem;
+}
+ul li{
+    width: 100%;
+    max-width: 40rem;
+    transform-origin: top;
+    animation: in .9s cubic-bezier(.2,.6,.4,.3) both;
+}
+ul li a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-1);
+    box-shadow: 0 .8rem 2rem rgba(0,0,0, .3);
+    padding: 2rem 0;
+    border-radius: .2rem;
+    transition: transform .3s , box-shadow .2s;
+}
+ul li a:hover{
+    cursor: pointer;
+    transform: translateY(- .6rem);
+        box-shadow: 0  1rem 2rem rgba(0,0,0, .8);
+    }
+ul li a span{
+    margin-top: .6rem;
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.aaa{
+    background-image: url(instagram-hex-colors-gradient-background.png)
+}
+ul{
+    list-style-type:disc;
+}
+.github{
+    background-color: white;
+}
+.kindle{
+    background-color:  #24a0ed;   
+}
+.dev{
+    background-color: #e53935;
+}
+.un{
+    background-color: white;
+}
