@@ -4,3 +4,7 @@ This Is A Link In Bio HTML Webpage Developed Under 2 Hours Of Hardwork By Divyan
 
 Thank You,
 Divyansh Singh Parihar.
+
+Screenshot/ Preview  
+![Screeshot](https://user-images.githubusercontent.com/70029749/92217853-dcda3280-eeb5-11ea-8d38-978379d6f4a3.PNG)
+
