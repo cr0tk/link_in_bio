@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(34, 34, 34);
 }
 header{
     display: flex;
@@ -7,12 +7,12 @@ header{
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    text-decoration:overline;
     text-decoration-style:wavy;
 }
 img{
     border-radius: 50%;
-    height: 100px;
+    height: 300px;
+    width: 300px;
 }
 header{
     <img src="My%20Vector.jpeg">
@@ -22,12 +22,12 @@ header h1{
     margin-top: 32px;
     font-size: 2.2rem;
     font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 header a{
     margin-top: .4rem;
     font-size: 1.6rem;
     font-weight: 400;
-    color: #4A475F;
     transition: color .2s;
 }
 ul li a svg,
@@ -47,6 +47,7 @@ ul li{
     max-width: 40rem;
     transform-origin: top;
     animation: in .9s cubic-bezier(.2,.6,.4,.3) both;
+    list-style-type: none;
 }
 ul li a{
     display: flex;
@@ -62,7 +63,7 @@ ul li a{
 ul li a:hover{
     cursor: pointer;
     transform: translateY(- .6rem);
-        box-shadow: 0  1rem 2rem rgba(0,0,0, .8);
+    box-shadow: 0  1rem 2rem rgba(0,0,0, .8);
     }
 ul li a span{
     margin-top: .6rem;
@@ -70,19 +71,39 @@ ul li a span{
     font-family: 'Open Sans', sans-serif;
 }
 .aaa{
-    background-image: url(instagram-hex-colors-gradient-background.png)
+    background-color:orangered;
+    color:white;
+}
+.aaa:hover{
+    background-color: white;   
+    color:black;
 }
 ul{
     list-style-type:disc;
 }
 .github{
-    background-color: white;
+    background-color: orangered;
+    color:white;
+}
+.github:hover{
+    background-color: white;   
+    color:black;
 }
 .kindle{
-    background-color:  #24a0ed;   
+    background-color: orangered;   
+    color:white;
+}
+.kindle:hover{
+    background-color: white;   
+    color: black;
 }
 .dev{
-    background-color: #e53935;
+    background-color: orangered;
+    color:white;
+}
+.dev:hover{
+    background-color: white;   
+    color:black;
 }
 .un{
     background-color: white;
